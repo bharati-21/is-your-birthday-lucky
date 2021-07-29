@@ -53,6 +53,10 @@ ul {
 }
 
 
+nav a {
+    border-bottom: 1px solid #fff;
+}
+
 .hero {
     text-align: center;
     display: flex;
@@ -192,7 +196,6 @@ p.output-message {
     display: none;
     font-weight: bold;
 }
-
 
 
 .success {
