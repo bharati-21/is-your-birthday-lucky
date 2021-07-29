@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Is Your Birthday Lucky?</title>
+
+        <link rel="stylesheet" href="styles.css">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    </head>
+    <body>
+        <div id="page-wrapper">
+            <nav class="navbar container">
+                <p class="author">Bharati Subramanian</p>
+                <p class="github-repo"><a href="https://www.github.com/bharati-21/is-your-birthday-lucky/" target="_blank" style="border-bottom: 1px solid #fff;">GitHub Repo</a></p>
+            </nav>
+            <header class="hero container">
+                <h1 class="hero-head">Is Your Birthday Lucky?</h1>
+                <p class="hero-lead">Scroll down to find out if your birthday is lucky!</p>
+                <img src="./img/birthday-3.jfif" alt="Cure dog with birthday hat" class="dog-img">
+
+                <a href="#main" class="scroll-down">
+                    <i class="fas fa-arrow-down fa-2x"></i>
+                </a>
+            </header>
+            <main class="main container" id="main">
+                <section class="section container">
+                <h2 class="section-head">Enter your <strong>Birth Date</strong> and <strong>Lucky Number</strong> to continue</h2>
+                    <div class="input-div">
+                        <form>
+                            <label for="birth-date">Select your Birth Date</label>
+                            <input type="date" name="birth-date" id="birth-date" class="birth-date" required>
+
+                            <label for="lucky-no">Enter your Lucky Number</label>
+                            <input type="number" name="lucky-no" id="lucky-no" class="lucky-no" required min=1>
+
+                            <button class="btn-check">Check</button>
+                        </form>
+                    </div>
+                    <div class="output-div">
+                        <p class="output-message"></p>
+                        <img src="https://media.giphy.com/media/dJYoOVAWf2QkU/giphy.gif" alt="Gif output for lucky birthday" class="gif">
+                        <!-- https://media.giphy.com/media/l2SqiOMQxG82Gto4M/giphy.gif -->
+                    </div>
+                </section>
+            </main>
+            <footer class="footer container">
+                <ul class="social-links">
+                    <li>
+                        <a href="https:///www.github.com/bharati-21" target="_blank">GitHub
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/bharati-subramanian-29734b152" target="_blank">
+                            LinkedIn
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/_girlwhocodes" target="_blank">Twitter
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+    </body>
+</html>
