@@ -30,14 +30,14 @@
                 <section class="section container">
                 <h2 class="section-head">Enter your <strong>Birth Date</strong> and <strong>Lucky Number</strong> to continue</h2>
                     <div class="input-div">
-                        <form>
+                        <form method="PUT">
                             <label for="birth-date">Select your Birth Date</label>
-                            <input type="date" name="birth-date" id="birth-date" class="birth-date" required>
+                            <input type="date" name="birth-date" id="birth-date" class="birth-date">
 
                             <label for="lucky-no">Enter your Lucky Number</label>
-                            <input type="number" name="lucky-no" id="lucky-no" class="lucky-no" required min=1>
+                            <input type="number" name="lucky-no" id="lucky-no" class="lucky-no">
 
-                            <button class="btn-check">Check</button>
+                            <input type="submit" class="btn-check" value="Check">
                         </form>
                     </div>
                     <div class="output-div">
@@ -68,5 +68,8 @@
                 </ul>
             </footer>
         </div>
+
+        <script src="main.js"></script>
+
     </body>
 </html>

@@ -102,7 +102,7 @@ ul {
 /* MAIN */
 
 .main {
-    height: 90vh;
+    min-height: 100vh;
     padding: 1rem;
     width: 100%;
     display: flex;
@@ -118,9 +118,9 @@ ul {
 }
 
 .main .section input.birth-date, main .section input.lucky-no {
-    padding: 0.75rem 1rem;
+    padding: 0.75rem;
     width: 300px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: 'Dosis', sans-serif;
     font-weight: bold;
     border-radius: 0.5rem;
@@ -132,16 +132,16 @@ ul {
 
 
 .main .section .input-div label{
-    font-size: 1.5rem;
-    margin: 1.5rem 0 0.5rem 0;
+    font-size: 1.3rem;
+    margin: 1.5rem 0 0 0;
     display: block;
 }
 
 
-button.btn-check {
-    margin-top: 2rem;
+.btn-check {
+    margin-top: 0.75rem;
     padding: 0.5rem 0.75rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     border-radius: 0.5rem;
     outline: none;
     border: none;
@@ -149,13 +149,28 @@ button.btn-check {
     transition: all 0.2s ease-in;
 }
 
-button.btn-check:hover {
+.btn-check:hover {
     background-color: #000;
     color: #fff;
 }
 
 
 .output-div img.gif {
+    display: none;
+    margin: 1rem auto 2rem auto;
+    height: 250px;
+}
+
+.output-div{
+    margin: 2rem auto;
+    display: none;
+}
+
+p.output-message {
+    border-radius: 0.5rem;
+    width: 500px;
+    padding: 0.5rem;
+    margin: auto;
     display: none;
 }
 
@@ -170,7 +185,7 @@ button.btn-check:hover {
 }
 
 p.lucky {
-    background: blue;
+    background: navy;
     color: #fff;
 }
 
@@ -198,7 +213,7 @@ p.not-lucky {
 
 .footer ul li {
     display: inline-block;
-    margin: 0 2.5rem;
+    margin: 0.5rem 2.5rem;
 }
 
 .footer ul li a {
