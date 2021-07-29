@@ -102,7 +102,7 @@ ul {
 /* MAIN */
 
 .main {
-    min-height: 100vh;
+    min-height: 90vh;
     padding: 1rem;
     width: 100%;
     display: flex;
@@ -113,7 +113,7 @@ ul {
 }
 
 .main .section .section-head {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     margin-bottom: 2rem;
 }
 
@@ -157,8 +157,9 @@ ul {
 
 .output-div img.gif {
     display: none;
-    margin: 1rem auto 2rem auto;
-    height: 250px;
+    margin: 1rem auto 0 auto;
+    max-width: 80%;
+    height: 280px;
 }
 
 .output-div{
@@ -168,7 +169,7 @@ ul {
 
 p.output-message {
     border-radius: 0.5rem;
-    width: 500px;
+    max-width: 500px;
     padding: 0.5rem;
     margin: auto;
     display: none;
@@ -202,7 +203,7 @@ p.not-lucky {
     padding: 1rem;
     background-color: rgba(0,0,0,0.7);
     align-items: center;
-    height: 10vh;
+    min-height: 10vh;
     width: 100%;
 }
 
