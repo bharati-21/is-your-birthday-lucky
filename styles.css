@@ -165,6 +165,7 @@ p.privacy-notice > span.warn {
     border: none;
     font-weight: bold;
     transition: all 0.2s ease-in;
+    cursor: pointer;
 }
 
 .btn-check:hover {
