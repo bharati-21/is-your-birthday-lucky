@@ -2,7 +2,7 @@
 An application that takes the birthday and a lucky number of the user to tell if their birth date is lucky or not!
 
 ### This application tells user whether they are lucky or not when the user enters their birth date and lucky number.
-Live demo of the application: https://bharati-is-your-birthday-lucky.netlify.app/
+[Live demo of the application](https://bharati-is-your-birthday-lucky.netlify.app/)
 <hr />
 
 ## PREREQUISITES
